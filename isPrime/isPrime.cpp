@@ -11,12 +11,12 @@ int main()
 {
     //user enters a number and is being asked to enter a number. 
     int num;
-    cout << "Enter a number: \n ";
+    cout << "Enter a number:\n";
     cin >> num;
     //if the number is less than 2.
     if (num < 2) {
         //display if number entered is less than 2 and is so define if it is not a prime number 
-        cout << num << " is NOT a prime number. \n ";
+        cout << num << " is NOT a prime number.\n";
     }
     //define if prime is true 
     else {
@@ -33,8 +33,13 @@ int main()
         if (isPrime) {
 
             cout << num << " IS a prime number. \n ";
+        }
+        else {
+
+
             cout << num << " is NOT a prime number \n ";
         }
     }
     return 0;
+}
    
